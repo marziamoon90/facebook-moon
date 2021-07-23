@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/Facebook_.svg" type="image/x-icon">
+    <!-- css styleshit -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/44a739177b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!--nav left side -->
+            <div class="nav-left">
+                <i class="fab fa-facebook icons"></i>
+                <h1>Facebook</h1>
+
+                <div class="search-box">
+                    <i class="fas fa-search "></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <!-- nav mid side  -->
+            <div class="nav-mid">
+                <ul>
+                    <li><i class="fas fa-user-friends icons"></i></li>
+                    <li><i class="fas fa-home icons"></i></li>
+                    <li><i class="fas fa-users icons"></i></li>
+                </ul>
+            </div>
+            <!-- nav right side  -->
+            <div class="nav-right">
+                <h4> Find Friends</h4>
+                <ul>
+                    <li><i class="fas fa-plus-circle icons"></i></li>
+                    <li><i class="fab fa-facebook-messenger icons"></i></li>
+                    <li><i class="fas fa-bell icons"></i></li>
+                </ul>
+                <div onclick="settingsMenuToggle()">
+                    <img src="images/profile-pic.png">
+                </div>
+            </div>
+            <!------------------- nav dropdown------------ -->
+            <div class="settings-menu">
+                <div class="settings-menu-inner">
+                    <div class="user-dropdown">
+                        <img src="images/profile-pic.png" alt="">
+
+                        <div>
+                            <p>Remo D-Souza</p>
+                            <a href="">See Your Profile</a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="user-dropdown">
+                        <i class="fas fa-comment-alt"></i>
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="">Help Us </a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="user-dropdown">
+                        <i class="fas fa-random"></i>
+                        <div>
+                            <p>Switch Account</p>
+                            <a href="">Log in as Leo Messi</a>
+                        </div>
+
+                    </div>
+
+                    <div class="user-dropdown">
+                        <i class="fas fa-cog"></i>
+                        <div>
+                            <p>Settings & Privacy</p>
+                        </div>
+
+                    </div>
+
+                    <div class="user-dropdown">
+                        <i class="fas fa-question-circle"></i>
+                        <div>
+                            <p>Help & Support</p>
+                        </div>
+
+                    </div>
+
+                    <div class="user-dropdown">
+                        <i class="fas fa-moon"></i>
+                        <div>
+                            <p>Display & Accessibility</p>
+                        </div>
+
+                    </div>
+                    <div class="user-dropdown">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <div>
+                            <p>Log Out</p>
+                        </div>
+                    </div>
+
+                </div>
+                <footer>
+                    <p>Privacy · Terms · Advertising · Ad choices · Cookies · Facebook © 2021</p>
+                </footer>
+            </div>
+
+        </nav>
+    </header>
+    <!-- end of nav  -->
+    <main>
+        <section>
+            <div class="container">
+                <!-- left sidebar  -->
+                <div class="left-sidebar">
+                    <div class="imp-link">
+                        <a href=""><i class="fas fa-heartbeat "></i>&nbsp; COVID-19 Information center</a>
+
+                        <a href=""><i class=" fas fa-user-friends "></i>&nbsp; Find Friends</a>
+                        <a href=""><i class="fas fa-store "></i>&nbsp; Market Place</a>
+                        <a href=""> <i class="far fa-clock "></i>&nbsp; Memories</a>
+                        <a href=""> <i class="fas fa-bookmark "></i>&nbsp; Saved</a>
+                        <a href=""><i class="fas fa-tv "></i>&nbsp; Watch</a>
+                        <a href=""><i class="fas fa-caret-down "></i>See More</a>
+                    </div>
+
+                    <div class="shortcut-link">
+                        <p>Your Shortcuts</p>
+                        <a href=""><img src="images/shortcut/shortcut-1.png">Web Developers</a>
+                        <a href=""><img src="images/shortcut/shortcut-2.png">Web Design Course</a>
+                        <a href=""><img src="images/shortcut/shortcut-3.png">Full Stack Development</a>
+                        <a href=""><img src="images/shortcut/shortcut-4.png">Website Experts</a>
+                    </div>
+                </div>
+
+                <!-- main content  -->
+                <div class="main-content">
+
+
+                    <div class="story-gallery">
+                        <div class="story story1">
+                            <img src="images/upload.png" alt="">
+                            <p>Create Story</p>
+                        </div>
+                        <div class="story story2">
+                            <img src="images/member/member-1.png" alt="">
+                            <p>Alison</p>
+                        </div>
+                        <div class="story story3">
+                            <img src="images/member/member-2.png" alt="">
+                            <p>Jackson</p>
+                        </div>
+                        <div class="story story4">
+                            <img src="images/member/member-3.png" alt="">
+                            <p>Samona</p>
+                        </div>
+                        <div class="story story5">
+                            <img src="images/member/member-4.png" alt="">
+                            <p>John Doe</p>
+                        </div>
+                    </div>
+
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png" alt="">
+
+                            <div>
+                                <p>Remo D-Souza</p>
+                                <small> <i class="fas fa-globe-asia"></i> Public <i
+                                        class="fas fa-caret-down"></i></small>
+                            </div>
+                        </div>
+
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="What's on your mind Remo?"></textarea>
+
+                            <div class="add-post-links">
+                                <a href=""><img src="images/live-video.png" alt=""> Live Video</a>
+                                <a href=""><img src="images/photo.png" alt=""> Photo Video</a>
+                                <a href=""><img src="images/feeling.png" alt=""> Feeling Activity</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/feed/feed-image-1.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/feed/feed-image-2.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/feed/feed-image-3.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/feed/feed-image-4.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/players/player-2.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/players/player-5.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/players/player-6.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.png" alt="">
+
+                                <div>
+                                    <p>Remo D-Souza</p>
+                                    <span>july 22 at 2:00</span>
+                                </div>
+                            </div>
+                            <a href=""><i class="fas fa-ellipsis-h"></i></a>
+                        </div>
+
+                        <p class="post-text">PUBG MOBILE World Invitational powered by GWB is here! The top 32 squads
+                            from around the
+                            world will compete against each other to help the Gamers Without Borders mission to
+                            distribute the vaccine to underdeveloped countries and communities that are at risk of being
+                            forgotten and are continuing to suffer in comparison to other global superpowers who are
+                            moving into a post-pandemic era. Total support of $3,000,000 will be distributed for the
+                            charity so shout out the team and pl… <span> See more</span></p>
+                        <a href="#">See Translations</a>
+                        <img src="images/players/player-7.png" class="post-image">
+
+                        <div class="post-reacts">
+                            <div class="post-react">
+                                <i class="fas fa-thumbs-up"></i>
+                                <i class="fab fa-gratipay"></i>
+                            </div>
+                            <div class="post-comment">
+                                <h5>12k comment</h5>
+                                <h5>900 shares</h5>
+                            </div>
+                        </div>
+
+                        <div class="activity">
+                            <div class="like">
+                                <i class="far fa-thumbs-up"></i>
+                                <h5>Like</h5>
+                            </div>
+                            <div class="like">
+                                <i class="far fa-comment-alt"></i>
+                                <h5>Comment</h5>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-share"></i>
+                                <h5>Shares</h5>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button type="button" class="load-more">Load More</button>
+                </div>
+                <!-- right sidebar  -->
+                <div class="right-sidebar">
+                    <div class="events">
+                        <div class="contacts">
+                            <h4>Sponsered</h4>
+                        </div>
+
+                        <div class="event-image">
+                            <div class="event-top">
+                                <div class="event-top-img"><img src="images/shortcut/shortcut-1.png" alt=""></div>
+                                <div class="event-top-right">
+                                    <p>MSc Sustainable Engineering: Energy</p>
+                                    <a href="">msc.sustain</a>
+                                </div>
+                            </div>
+                            <div class="event-top">
+                                <div class="event-top-img">
+                                    <img src="images/shortcut/shortcut-3.png" alt="">
+                                </div>
+                                <div class="event-top-right">
+                                    <p>Online Counsiling On Demand</p>
+                                    <a href="">online.course</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="sidebar-title">
+                        <div class="contacts">
+                            <h4>Contacts</h4>
+                        </div>
+                        <div class="icons-main-content">
+                            <i class="fas fa-video"></i>
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+                    </div>
+                    <div class="active-side">
+                        <div class="active-people">
+                            <img src="images/profile-pic.png" alt="">
+                            <h4>Remo D-souza</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-1.png" alt="">
+                            <h4>Neymar Jr</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-2.png" alt="">
+                            <h4>Leonel Messi</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-3.png" alt="">
+                            <h4>Cristiano Ronaldo</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-4.png" alt="">
+                            <h4>Paulo Dybala</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-5.png" alt="">
+                            <h4>Mesut Özil</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-6.png" alt="">
+                            <h4>Mauro Icardi</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-7.png" alt="">
+                            <h4>Ángel Di María</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-8.png" alt="">
+                            <h4>Kylian Mbappé</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-9.png" alt="">
+                            <h4>Mohamed Salah</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-10.png" alt="">
+                            <h4>Harry Kane</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-11.png" alt="">
+                            <h4>Kevin De Bruyne</h4>
+                        </div>
+                        <div class="active-people">
+                            <img src="images/players/player-12.png" alt="">
+                            <h4>Philippe Coutinho</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; Copyright 2021 - Facebook</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
